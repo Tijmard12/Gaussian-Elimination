@@ -1,0 +1,56 @@
+.root {
+    -fx-font : 12px "Lucida Sans";
+}
+.stage {
+    -fx-background-color: #222;
+}
+.sidePanel {
+    -fx-background-color: #000;
+    -fx-border-width: 2px;
+    -fx-border-color: #080808;
+}
+.generateBox .choice-box {
+    -fx-background-color: #151515;
+    -fx-background-radius: 4px 0px 0px 4px;
+    -fx-alignment: center;
+    -fx-text-fill: beige;
+}
+
+.choice-box .arrow {
+    visibility: hidden;
+}
+.choice-box .label {
+    -fx-alignment: center;
+    -fx-text-fill: #aaa;
+}
+.generateBox .button {
+    -fx-background-radius: 0px 4px 4px 0px;
+    -fx-background-color: #131313;
+    -fx-text-fill: beige;
+}
+.generateBox .button:hover {
+    -fx-background-color: #111;
+}
+.equation .text-field {
+    -fx-min-width: 70px;
+    -fx-max-width: 70px;
+    -fx-min-height: 35px;
+    -fx-max-height: 35px;
+    -fx-font-size: 15px;
+    -fx-alignment: center;
+    -fx-background-color: #080808;
+    -fx-text-fill: beige;
+}
+.equation .label {
+    -fx-text-fill: #fff;
+}
+.eq .button {
+    -fx-background-color: #ff3025;
+    -fx-text-fill: #fff;
+    -fx-background-radius: 4px;
+    -fx-min-height: 35px;
+    -fx-max-height: 35px;
+}
+.eq .button:hover {
+    -fx-background-color: #ff0f09;
+}

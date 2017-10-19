@@ -1,0 +1,53 @@
+.root {
+    -fx-font: 12px "Lucida Sans";
+}
+
+.special {
+    -fx-background-radius: 3px;
+}
+
+.dialog-pane .content .label {
+    -fx-font-size: 15px;
+    -fx-text-emphasis:#f8f8f8;
+    -fx-text-fill: #f8f8f8;
+}
+
+.dialog-pane *.header-panel{
+    -fx-background-color: linear-gradient(#333, #333);
+    -fx-effect: dropshadow(three-pass-box, #333, 9, 0, 0, 0);
+}
+
+.dialog-pane *.header-panel .label {
+    -fx-text-fill: #f1f1f1;
+    -fx-font-size: 18px;
+}
+
+.dialog-pane > *.button-bar > *.container{
+    -fx-background-color: linear-gradient(#333, #333);
+    -fx-alignment: center;
+
+}
+
+.dialog-pane > *.label.content{
+    -fx-font-size: 16px;
+    -fx-text-fill: #f1f1f1;
+}
+
+.dialog-pane .content {
+    -fx-padding: 20px;
+    -fx-background-color: #333;
+}
+
+.dialog-pane .button {
+    -fx-padding: 7px;
+    -fx-min-width: 100px;
+    -fx-background-color: #111;
+    -fx-text-fill: #f8f8f8;
+}
+.dialog-pane .button:hover {
+    -fx-background-color : #222;
+}
+
+.dialog-pane .button:armed {
+    -fx-effect: dropshadow(three-pass-box, #000, 3, 0.1, 2, 2);
+}
